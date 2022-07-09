@@ -1,0 +1,25 @@
+
+:root {
+    --background: white;
+    --text-primary: black;
+    --text-secondary: royalblue;
+    --accent: purple;
+  }
+  [data-theme='dark'] {
+    --background: black;
+    --text-primary: white;
+    --text-secondary: grey;
+    --accent: darkred;
+  }
+
+  
+body {text-align: center; }
+.themepage {width: 1300px; height: 300px; margin: 0 auto; border: 1px solid black; display: flex; justify-content: center;
+            align-items: center;}
+.bgColor {background-color: black;}
+.modebtn {font-size: 16px; font-weight: bold; padding: 7px; border-radius: 4px; background-color: blueviolet;
+         cursor: pointer; color: white;}
+
+
+
+
